@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Ghostbusters: Descendants</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="src/assets/img/pirate_flag.png" type="image/png" />
+  <link rel="stylesheet" href="src/css/normalize.css" />
+  <link rel="stylesheet" href="src/css/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="src/css/swiper.min.css" />
+  <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="stylesheet" href="src/css/media.css" />
+  <script src="src/js/script.js" defer></script>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-logo">
+      <a class="header_logo" href="/index.html">
+        <img class="logo" src="./src/assets/img/Logo.png" alt="Logo: Film">
+      </a>
+    </div>
+    <div class="m_menu">
+      <input class="search_input" type="search" placeholder="search..." />
+      <nav class="navigation">
+        <a href="#" class="nav_link">Films</a>
+        <a href="#" class="nav_link">TV</a>
+        <a href="#" class="nav_link">News </a>
+        <a href="#" class="nav_link">About&nbsp;service</a>
+      </nav>
+      <div class="button_group">
+        <button class="btn sign_up">Registration</button>
+        <button class="btn sign_in">Sign in</button>
+      </div>
+    </div>
+    <!-- /.m_menu -->
+    <div class="mob_buttons">
+      <button class="mob_search_btn">
+        <img src="./src/assets/img/search-icon.svg" alt="search">
+      </button>
+      <button class="mob_menu_btn">
+        <span class="menu_line"></span>
+        <span class="menu_line"></span>
+        <span class="menu_line"></span>
+      </button>
+    </div>
+    <!-- /.mobile_buttons -->
+  </header>
+  <!-- /.header end -->
+
+
+  <!-- FILM SECTION -->
+  <section class="film">
+    <div class="container">
+      <div class="film_wrapper">
+        <div class="film_trailer">
+          <img src="./src/assets/img/poster.jpg" alt="Poster" class="poster">
+          <a class="trailer_btn" data-fancybox href="https://youtu.be/ahZFCF--uRY">
+            <img class="trailer_btn_icon" src="./src/assets/img/play.svg" alt="play">
+            <span class="trailer_btn_text">Watch the trailer</span>
+          </a>
+        </div>
+        <!-- /.film_trailer -->
+        <div class="film_description">
+          <h1 class="film_title">Ghostbusters: Descendants</h1>
+          <span class="film_subtitle">Охотники за привидениями: Наследники</span>
+          <p class="film_text">
+            A single mother with two teenage children settles on an old farm in Oklahoma, inherited from a father she
+            did not know. The children try to learn more about their grandfather and find the Ecto-1 car that belonged
+            to the famous ghost hunters.
+          </p>
+          <div class="about_film">
+            <div class="left_side">
+              <span class="about_text">
+                <strong class="about_text_bold">Director</strong>
+                <span class="about_text_reg">Jason Wrightman</span>
+              </span>
+              <span class="about_text">
+                <strong class="about_text_bold">Scenario</strong>
+                <span class="about_text_reg">Dan Aykroyd</span>
+              </span>
+              <span class="about_text">
+                <strong class="about_text_bold">Premiere</strong>
+                <span class="about_text_reg">09.09.2020</span>
+              </span>
+            </div>
+            <!-- /.left_side -->
+            <div class="right_side">
+              <span class="about_text">
+                <strong class="about_text_bold">Budget</strong>
+                <span class="about_text_reg">1 000 000 $</span>
+              </span>
+              <span class="about_text">
+                <strong class="about_text_bold">Distribution</strong>
+                <span class="about_text_reg">SPPR</span>
+              </span>
+              <span class="about_text">
+                <strong class="about_text_bold">Time</strong>
+                <span class="about_text_reg">112 min</span>
+              </span>
+            </div>
+            <!-- /.right_side -->
+          </div>
+          <!-- /.about_film -->
+          <div class="rating">
+            <div class="rating_counter">92%</div>
+            <div class="rating_description">
+              <h3 class="rating_title">Viewers rating</h3>
+              <span class="rating_text">Average rating: <strong class="rating_text_bold">4.5 / 5</strong></span>
+              <span class="rating_text">Total Votes: <strong class="rating_text_bold">4 350</strong></span>
+            </div>
+          </div>
+          <!-- /.rating -->
+        </div>
+        <!-- /.film_description -->
+      </div>
+      <!-- /.film_wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.film -->
+
+
+  <!-- ACTORS SECTION -->
+  <section class="actors">
+    <div class="container">
+      <div class="tabs">
+        <h2 class="tab_actors section_title active" data-target="#actors">Actors</h2>
+        <h2 class="tab_creators section_title" data-target="#creators">Creators</h2>
+      </div>
+      <div class="actors_tab tabs_content visible">
+        <div class="card">
+          <img class="card_img" src="./src/assets/img/actors/Carrie Coon.png" alt="Carrie Coon">
+          <div class="card_text">
+            <h3 class="name">Carrie Coon</h3>
+            <span class="ru_name">Кэрри Кун</span>
+          </div>
+        </div>
+        <!-- /.card -->
+        <div class="card">
+          <img class="card_img" src="./src/assets/img/actors/Bill Murray.png" alt="Bill Murray">
+          <div class="card_text">
+            <h3 class="name">Bill Murray</h3>
+            <span class="ru_name">Билл Мюррей</span>
+          </div>
+        </div>
+        <!-- /.card -->
+        <div class="card">
+          <img class="card_img" src="./src/assets/img/actors/Paul Rudd.png" alt="Paul Rudd">
+          <div class="card_text">
+            <h3 class="name">Paul Rudd</h3>
+            <span class="ru_name">Пол Радд</span>
+          </div>
+        </div>
+        <!-- /.card -->
+        <div class="card">
+          <img class="card_img" src="./src/assets/img/actors/Mckenna Grace.png" alt="Mckenna Grace">
+          <div class="card_text">
+            <h3 class="name">Mckenna Grace</h3>
+            <span class="ru_name">МакКенна Грейс</span>
+          </div>
+        </div>
+        <!-- /.card -->
+        <div class="card">
+          <img class="card_img" src="./src/assets/img/actors/Annie Potts.png" alt="Annie Potts">
+          <div class="card_text">
+            <h3 class="name">Annie Potts</h3>
+            <span class="ru_name">Энни Поттс</span>
+          </div>
+        </div>
+        <!-- /.card -->
+        <div class="card">
+          <img class="card_img" src="./src/assets/img/actors/Dan Aykroyd.png" alt="Dan Aykroyd">
+          <div class="card_text">
+            <h3 class="name">Dan Aykroyd</h3>
+            <span class="ru_name">Дэн Эйкройд</span>
+          </div>
+        </div>
+        <!-- /.card -->
+        <div class="card">
+          <div class="card_img_wrapper">
+            <img class="card_img" src="./src/assets/img/actors/Ernie Hudson.png" alt="Ernie Hudson">
+          </div>
+          <div class="card_text">
+            <h3 class="name">Ernie Hudson</h3>
+            <span class="ru_name">Эрни Хадсон</span>
+          </div>
+        </div>
+        <!-- /.card -->
+        <div class="card">
+          <img class="card_img" src="./src/assets/img/actors/Finn Wolfhard.png" alt="Finn Wolfhard">
+          <div class="card_text">
+            <h3 class="name">Finn Wolfhard</h3>
+            <span class="ru_name">Финн Вулфард</span>
+          </div>
+        </div>
+        <!-- /.card -->
+      </div>
+      <!-- /.tabs_content -->
+      <div class="creators_tab tabs_content ">
+        <div class="card">
+          <div class="card_img_wrapper">
+            <img class="card_img" src="./src/assets/img/creators/Ivan Reitman.png" alt="Ivan Reitman">
+          </div>
+          <div class="card_text">
+            <h3 class="name">Ivan Reitman</h3>
+            <span class="ru_name">Иван Рейтман</span>
+          </div>
+        </div>
+        <!-- /.card -->
+        <div class="card">
+          <img class="card_img" src="./src/assets/img/creators/Dan Aykroyd.png" alt="Dan Aykroyd">
+          <div class="card_text">
+            <h3 class="name">Dan Aykroyd</h3>
+            <span class="ru_name">Дэн Эйкройд</span>
+          </div>
+        </div>
+        <!-- /.card -->
+      </div>
+      <!-- /.tabs_content -->
+    </div>
+  </section>
+
+
+  <!-- NEWS SECTION -->
+  <section class="news">
+    <div class="container">
+      <h2 class="section_title section_title_news">Related News</h2>
+
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="news_card">
+              <span class="news_date">March 31, 2020</span>
+              <h3 class="news_title">"Morbius" and "Ghostbusters" postponed to next year</h3>
+            </div>
+            <!-- /.news_card -->
+          </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide">
+            <div class="news_card">
+              <span class="news_date">December 9, 2019</span>
+              <h3 class="news_title">The Descendants: Debut Trailer for New "Ghostbusters" Released</h3>
+            </div>
+            <!-- /.news_card -->
+
+          </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide">
+            <div class="news_card">
+              <span class="news_date">November 11, 2019</span>
+              <h3 class="news_title">New "Ghostbusters" got a name </h3>
+            </div>
+            <!-- /.news_card -->
+          </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide">
+            <div class="news_card">
+              <span class="news_date">October 19, 2019</span>
+              <h3 class="news_title">Filming for the new "Ghostbusters" is completed</h3>
+            </div>
+            <!-- /.news_card -->
+          </div>
+          <!-- /.swiper-slide -->
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <!-- /.swiper-container -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+
+  <script src="./src/js/jquery-3.5.1.min.js"></script>
+  <script src="./src/js/jquery.fancybox.min.js"></script>
+  <script src="./src/js/swiper.min.js"></script>
+  <script src="./src/js/main.js"></script>
+
+</body>
+
+</html>
